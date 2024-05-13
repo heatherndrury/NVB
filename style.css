@@ -13,6 +13,14 @@
     font-family: 'Raleway,' Helvetica, sans-serif;
     margin: 0;
  }
+ h1, h3 {
+    text-transform: uppercase;
+    font-family: 'Merriweather';
+    
+ }
+ p {
+    font-family: 'Raleway';
+ }
 /*----NAV BAR STYLING---*/
  .header-container {
     background-color: #9E7A61;
@@ -173,7 +181,8 @@
     display: flex;
     justify-content: center;
     margin: 0 1% 0 1%;
-    background-color: #475045;
+    /*background-color: #475045;*/
+    background-image: url(images/headline-bg.jpg);
 }
 
 .headline {
@@ -188,27 +197,54 @@
 }
 
 .portfolio-gallery-container {
-     margin: 1% 1% 0 1%;
-     
+     margin: 0% 1% 0 1%;
+     background-color: #b79f8e;
+    padding: 1%;
 }
 
 .portfolio-item-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 8px;
+    grid-column-gap: 0;    
+    border: 2px solid #475045;
+    padding: 1%;
+    margin: 1%;
+}
+.portfolio-img {
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    align-items: center;
 }
 .portfolio-item {
     list-style-type: none;
     font-family: 'Raleway';
-    margin-top: 0;
+    margin: 0;
     
 }
 .portfolio-item>li {
     padding: 1%;
 }
-.portfolio-img {
-    width: 100%;
-    height: auto;
+.shop-btn {
+    text-align: right;
+}
+
+/*----------SERVICES STYLING--------*/
+.services-container {
+    margin: 0% 1% 0 1%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 6px;
+    background-color: #b79f8e;
+    padding: 1%;
+}
+
+.service-box {
+    border: 2px solid #475045;
+    padding: 0 1% 0 1%;
+    margin: 1%;
+    text-align: center;
 }
