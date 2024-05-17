@@ -29,8 +29,8 @@
     font-family: 'Merriweather';
     color: #d6cbbf;
     text-transform: uppercase;
-    
  }
+ 
  .header-content {
     display: inline;
     
@@ -247,4 +247,12 @@
     padding: 0 1% 0 1%;
     margin: 1%;
     text-align: center;
+}
+
+/*--------------CONTACT PAGE-------------*/
+.contact-info {
+    background-color: #b79f8e;
+    text-align: center;
+    margin: 0 1% 0 1%;
+    padding: 1% 0 1% 0;
 }
